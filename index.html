@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capstone</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div class="nav1">
+        <div class="nav11">
+          <ul class="ulnav11">
+            <li class="linav11"><a href="#"><img src="./images/desktop/fb.svg" alt="facebook"></a></li>
+            <li class="linav11"><a href="#"><img src="./images/desktop/twitter.svg" alt="twiter"></a></li>
+            <li class="linav11"><a class="anav11" href="#">English</a></li>
+            <li class="linav11"><a class="anav11" href="#">My Page</a></li>
+            <li class="linav11"><a class="anav11" href="#">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav2">
+        <div class="nav21">
+          <img class="hamburger icon-element" src="./images/mobile/mobile_menu.svg" alt="mobile menu">
+        </div>
+        <div class="nav22">
+          <a href="./index.html"><img class="logo" src="./images/mobile/logopage2.png" alt="logo"></a>
+        </div>
+        <div class="nav23">
+          <ul class="ulnav23">
+            <li class="linav23"><a class="anav23" href="#aboutCont">About</a></li>
+            <li class="linav23"><a class="anav23" href="#program">Program</a></li>
+            <li class="linav23"><a class="anav23" href="#">Join</a></li>
+            <li class="linav23"><a class="anav23" href="#">Sponsor</a></li>
+            <li class="linav23"><a class="anav23" href="#">News</a></li>
+          </ul>
+        </div>
+        <div class="nav24">
+          <button class="bnav24" type="submit">CC Campaign</button>
+        </div>
+      </div>
+    </nav>
+    <div class="mobileMenuContainer">
+      <div class="xdiv">
+        <img class="x icon-element" src="./images/mobile/close.svg" alt="close icon">
+      </div>
+      <div class="menudiv">
+        <ul class="ul-menu">
+          <li class="li-menu"><a class="menu-options js" href="#home">Home</a></li>
+          <li class="li-menu"><a class="menu-options jsAbout" href="#aboutCont">About</a></li>
+          <li class="li-menu"><a class="menu-options js" href="#program">Program</a></li>
+          <li class="li-menu"><a class="menu-options js" href="#speakers">Speakers</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="s1 jsSection" id="home">
+      <h3 class="s1h3">"Hello! Tech world"</h3>
+      <h1 class="s1h1">BLOCKCHAIN<br>GLOBAL CONFERENCE<br>2023</h1>
+      <hr class="s1hr">
+      <p class="s1p1">The place where the enterprise blockchain community comes together is back in London…to stay! Get ready to unlock the full potential of blockchain technology at the London Blockchain Conference.</p>
+      <hr class="s1hr">
+      <h2 class="s1h2">MAY 31 – JUNE 2, 2023</h2>
+      <p class="s1p2">@ QE II CENTRE, LONDON UK
+      </p>
+    </section>
+    <section class="s2 jsSection" id="program">
+      <h2 class="s2h2">Main Program</h2>
+      <img class="line" src="./images/mobile/title_underline.svg" alt="line">
+      <div class="s2div1">
+        <div class="s2div11 box-effect">
+          <img class="s2img" src="./images/mobile/Lecture.svg" alt="lecture icon">
+          <h3 class="s2h3">Lecture</h3>
+          <p class="s2p">Listen to the speakers from various countries about the messages of sharing and opening.</p>
+        </div>
+        <div class="s2div12 box-effect">
+          <img class="s2img" src="./images/mobile/CCexibition.svg" alt="exhibition icon">
+          <h3 class="s2h3">Exhibition</h3>
+          <p class="s2p">Appreciate various creations applying license of developers, organized from Tech Center London</p>
+        </div>
+        <div class="s2div13 box-effect">
+          <img class="s2img" src="./images/mobile/Forum.svg" alt="forum icon">
+          <h3 class="s2h3">Forum</h3>
+          <p class="s2p">Have the time to share your thoughts and opinions with experts for each topic.</p>
+        </div>
+        <div class="s2div14 box-effect">
+          <img class="s2img" src="./images/mobile/Workshop.svg" alt="workshop icon">
+          <h3 class="s2h3">Workshop</h3>
+          <p class="s2p">Try creating your own work using open source license rather than just watching at it.</p>
+        </div>
+        <div class="s2div15 box-effect">
+          <img class="s2img" src="./images/mobile/CCignite.svg" alt="ignite icon">
+          <h3 class="s2h3">Ignite</h3>
+          <p class="s2p">Get opportunities to network with affiliates around the world, also after the summit.</p>
+        </div>
+      </div>
+      <button class="bs2" type="submit">Join Blockchain 2023</button>
+      <a class="s2a" href="#">
+        <p class="s2p3">SEE THE WHOLE PROGRAM</p>
+      </a>
+    </section>
+    <section class="s3 jsSection" id="speakers">
+      <h2 class="s3h2">Featured Speakers</h2>
+      <img class="line" src="./images/mobile/title_underline2.svg" alt="line">
+      <div class="cards">
+      </div>
+      <button class="buttonMore">MORE
+        <span><img class="arrowDown" src="./images/mobile/arrowDown.svg" alt="button more"></span>
+      </button>
+    </section>
+    <template class="template-card">
+      <div class="card">
+        <div class="s3div1">
+          <img class="s3img" src="" alt="">
+        </div>
+        <div class="s3div2">
+          <h3 class="name"></h3>
+          <h4 class="currentPosition"></h4>
+          <hr class="s3hr">
+          <p class="description"></p>
+        </div>
+      </div>
+    </template>
+    <div class="aboutContainer" id="aboutCont">
+      <section class="about">
+        <h3 class="abh3">"Hello! Tech world"</h3>
+        <h1 class="abh1">WHERE BLOCKCHAIN,<br>TECHNOLOGY AND SOCIETY CONVENE</h1>
+        <img class="line aboutline" src="./images/mobile/title_underline2.svg" alt="line">
+        <p class="abp1-mobile">The London Blockchain Conference is the most influential event for bringing enterprises and blockchain technologies together. Whether you're a global FinTech company, Application Developer, infrastructure partner, vendor, content creator, or only interested in the development of this technology.</p>
+          <p class="abp1-desktop">The London Blockchain Conference is the most influential event for bringing enterprises and blockchain technologies together. Whether you're a global FinTech company, Application Developer, infrastructure partner, vendor, content creator, or only interested in the development of this technology, this is an event you cannot afford to miss as this is the one time of the year when everyone worth meeting in blockchain comes together in one venue. Thousands of senior executives from the most innovative businesses, global governments and large corporations convene at the London Blockchain Conference to do business.</p>
+    
+        <p class="abp2">Please contact us per Email for any further questions about London Blockchain 2015!</p>
+        <p class="abp3">londonbc2023@chainalysis.org</p>
+      </section>
+      <section class="about-logo">
+        <h2 class="logo-h2-mobile">London<br>
+          Global Conference 2023 Logo</h2>
+        <h2 class="logo-h2-desktop">London
+          Global Conference 2023 Logo</h2>
+          <img class="line" src="./images/mobile/title_underline.svg" alt="line">
+        <p class="logo-p1-mobile">The logo of London Global Conference 2023 was decided through the logo competition from 18,
+          June to 27, July.</p>
+        <p class="logo-p1-desktop">The logo of London Global Conference 2023 was decided through the logo competition from 18,
+          June to 27, July.
+          After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the
+          prize.
+          After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:
+        </p>
+        <img class="logo-img-mobile" src="./images/desktop/chainalysis.jpeg" alt="logo">
+        <img class="logo-img-desktop" src="./images/desktop/chainalysis.jpeg" alt="logo">
+        <hr>
+      </section>
+      <section class="events">
+        <h2 class="events-h2">See the past Blockchain Conference</h2>
+        <img class="line" src="./images/mobile/title_underline.svg" alt="line">
+        <p class="events-p1">Take a look at the past two Blockchain Conference which took place in Lima and in
+          New York</p>
+        <div class="events-div1">
+          <img class="event-img-mobile1" src="./images/desktop/event1.jpg" alt="event 2011">
+          <img class="event-img-desktop1" src="./images/desktop/event1.jpg" alt="event 2011">
+          <img class="event-img-mobile2" src="./images/desktop/event2.jpg" alt="event 2013">
+          <img class="event-img-desktop2" src="./images/desktop/event2.jpg" alt="event 2013">
+        </div>
+      </section>
+    </div>
+    <section class="s4" id="partner">
+      <h2 class="s4h2">Partner</h2>
+      <img class="line" src="./images/mobile/title_underline2.svg" alt="line">
+      <div class="partners">
+        <img class="logos" src="./images/desktop/mozilla.svg" alt="mozilla">
+        <img class="logos" src="./images/desktop/google.svg" alt="google">
+        <img class="logos" src="./images/desktop/naver.svg" alt="naver">
+        <img class="logos" src="./images/desktop/daumkakao.svg" alt="daumkakao">
+        <img class="logos" src="./images/desktop/airbnb.svg" alt="airbnb">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <img class="footer-img" src="./images/mobile/logopage2.png" alt="logo">
+    <p class="rights">2023 Blockchain. Some Rights Reserved.</p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
