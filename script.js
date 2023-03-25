@@ -67,6 +67,8 @@ const $aboutDesktop = document.querySelectorAll('.anav23')[0];
 const $programDesktop = document.querySelectorAll('.anav23')[1];
 const $footer = document.querySelector('.footer');
 const $rights = document.querySelector('.rights');
+const $partner = document.querySelector('.s4');
+const $trigger = document.querySelector('.trigger');
 
 function toggleActivated() {
   $container.classList.toggle('activated');
@@ -76,6 +78,7 @@ function toggleActivated2() {
   $aboutCont.classList.remove('activated');
   $footer.classList.remove('activated');
   $rights.classList.remove('activated');
+  $trigger.classList.remove('activated');
   $sections.forEach((e) => {
     e.classList.remove('activated');
   });
@@ -97,6 +100,8 @@ function aboutInteraction() {
   $aboutCont.classList.add('activated');
   $footer.classList.add('activated');
   $rights.classList.add('activated');
+  $partner.classList.add('activated');
+  $trigger.classList.add('activated');
 }
 
 function aboutInteractionDesktop() {
@@ -106,6 +111,8 @@ function aboutInteractionDesktop() {
   $aboutCont.classList.add('activated');
   $footer.classList.add('activated');
   $rights.classList.add('activated');
+  $partner.classList.add('activated');
+  $trigger.classList.add('activated');
 }
 
 function programInteractionDesktop() {
