@@ -321,10 +321,6 @@ header {
   color: #8f8f91;
 }
 
-.footer {
-  display: none;
-}
-
 .footer-img {
   width: 100%;
   align-self: center;
@@ -626,6 +622,7 @@ header {
 }
 
 .footer {
+  display: none;
   padding: 1rem;
   background-color: #fff;
   display: grid;
@@ -888,8 +885,6 @@ header {
     padding: 2rem 8rem;
     display: block;
   }
-
-  .s4
 
   .s4h2 {
     font-weight: 400;
