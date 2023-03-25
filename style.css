@@ -43,6 +43,12 @@ header {
   cursor: pointer;
 }
 
+.airbnb {
+  justify-self: center;
+  display: block;
+  margin: auto;
+}
+
 .x {
   cursor: pointer;
 }
@@ -122,10 +128,8 @@ header {
 
 .s2 {
   padding: 1.875rem 1rem;
-  background-image: url(./images/mobile/bgs2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(./images/mobile/programBackground.png);
+  background-repeat: repeat;
 }
 
 .s2h2 {
@@ -299,6 +303,22 @@ header {
 
 .s4 {
   display: none;
+}
+
+.s4.activated {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #414246;
+  padding: 1rem 3rem;
+}
+
+.s4h2 {
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: #8f8f91;
 }
 
 .footer {
@@ -605,9 +625,9 @@ header {
   display: block;
 }
 
-.footer.activated {
+.footer {
   padding: 1rem;
-  background-color: #f2f2f2;
+  background-color: #fff;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -869,6 +889,8 @@ header {
     display: block;
   }
 
+  .s4
+
   .s4h2 {
     font-weight: 400;
     font-size: 1.875rem;
@@ -893,7 +915,7 @@ header {
   }
 
   .footer {
-    background-color: #f2f2f2;
+    background-color: #000;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -1061,7 +1083,7 @@ header {
     font-weight: 700;
     font-size: 0.875rem;
     line-height: 1.75rem;
-    color: #000;
+    color: #ff4f38;
     text-align: right;
   }
 
