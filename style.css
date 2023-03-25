@@ -909,7 +909,7 @@ header {
   }
 
   .footer {
-    background-color: #000;
+    background-color: #fff;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -917,6 +917,10 @@ header {
     grid-row-gap: 0;
     align-items: center;
     padding: 0 10rem;
+  }
+
+  .trigger.activated {
+    background-color: #000;
   }
 
   .rights {
