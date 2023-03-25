@@ -622,7 +622,6 @@ header {
 }
 
 .footer {
-  display: none;
   padding: 1rem;
   background-color: #fff;
   display: grid;
