@@ -114,8 +114,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Forms validation with Javascript**
-- [ ] **Linked List**
+- [ ] **Add more pages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
