@@ -43,12 +43,6 @@ header {
   cursor: pointer;
 }
 
-.airbnb {
-  justify-self: center;
-  display: block;
-  margin: auto;
-}
-
 .x {
   cursor: pointer;
 }
@@ -310,7 +304,7 @@ header {
   flex-direction: column;
   align-items: center;
   background-color: #414246;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
 }
 
 .s4h2 {
@@ -424,14 +418,6 @@ header {
 }
 
 .abh1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.75rem;
-  font-weight: 800;
-  background-image: url(./images/mobile/bgletters.jpg);
-  background-size: contain;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-position: center;
   padding-bottom: 1.5rem;
   text-align: center;
 }
@@ -520,6 +506,19 @@ header {
 
 .logo-img-desktop {
   display: none;
+}
+
+.logos {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .events {
@@ -622,6 +621,10 @@ header {
 }
 
 .footer {
+  display: none;
+}
+
+.footer.activated {
   padding: 1rem;
   background-color: #fff;
   display: grid;
@@ -904,7 +907,7 @@ header {
   }
 
   .logos {
-    max-width: 100%;
+    width: 100%;
     justify-self: center;
   }
 
